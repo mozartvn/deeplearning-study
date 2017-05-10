@@ -1,0 +1,19 @@
+hello = "hello" # String literals can use single quotes
+world = 'world' # or double quote; it does not matter
+
+print (hello)
+print (len(hello)) # String length
+hw = hello + ' ' + world # String concatenation
+print (hw)
+hw12 = '%s %s %d' % (hello, world, 12) # sprintf style string formatting
+print (hw12)
+
+# string objects have a bunch ò useful methods; for examples:
+
+s = "hello"
+print (s.capitalize()) #Capitalize a string
+print (s.upper())
+print(s.rjust(7)) # right-justify a string, padding with paces
+print (s.center(7))
+print (s.replace('l', '(ell)'))
+print '    world   '.strip()
