@@ -1,5 +1,8 @@
 import numpy as np
 
+x = print('accuracy: %f' % (np.mean(Yte_predict == Yte)))
+
+
 class NearestNeighbor(object):
   def __init__(self):
     pass
@@ -7,7 +10,7 @@ class NearestNeighbor(object):
   def train(self, X, y):
     """X is N x D where each row is an example. Y is 1-dimension of size N"""
     # the nearest neighbor classifier simply remembers all the training data
-    self.Xtr = X
+    self.Xtr = X # each row is an image which is flatted to vector row
     self.ytr = y
 
   def predict(self, X):
@@ -37,4 +40,3 @@ nn.train(Xtr_rows, Ytr) # train the classifier on the training images and labels
 Yte_predict = nn.predict(Xte_rows) # predict labels on the test images
 # and now print the classification accuracy, which is the average number
 # of examples that are correctly predicted (i.e. Label matches)
-print('accuracy: %f' % (np.mean(Yte_predict == Yte)))

@@ -163,11 +163,3 @@ print(a[bool_idx]) #[3 4 5 6]
 # We can do all of the above in a single concise statement
 
 print(a[a>2]) # [3 4 5 6]
-
-
-
-
-
-
-
-
