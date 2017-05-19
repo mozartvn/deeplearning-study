@@ -1,7 +1,6 @@
 import numpy as np
 
-x = print('accuracy: %f' % (np.mean(Yte_predict == Yte)))
-
+#x = print('accuracy: %f' % (np.mean(Yte_predict == Yte)))
 
 class NearestNeighbor(object):
   def __init__(self):

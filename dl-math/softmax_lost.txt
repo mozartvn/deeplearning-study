@@ -1,0 +1,1 @@
+{ L }_{ i }\quad =\quad -log(\frac { { e }^{ { s }_{ { y }_{ j } } } }{ \sum _{ j }{ { e }^{ { s }_{ j } } }  } )
