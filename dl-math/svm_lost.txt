@@ -1,1 +1,0 @@
-{ L }_{ i }\quad =\quad \sum _{ j\quad \neq \quad { y }_{ i } }{ \max { (0,\quad { S }_{ j }\quad -\quad { S }_{ { y }_{ i } } } +1) } 
